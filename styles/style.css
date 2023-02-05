@@ -20,11 +20,6 @@
   overflow: hidden;
 }
 
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-}
-
 .logo_place_header {
  position: absolute;
  top: 30px;
@@ -43,7 +38,6 @@
 }
 
 .header__subtitle {
-  contain: content;
   position: absolute;
   width: 388px;
   line-height: 25px;
@@ -249,10 +243,6 @@ size: 637px 867px;
 
 .kaufman__section-title{
   padding: 90px 0 20px 0;
-}
-
-.section-subtitle {
-  color: white;
 }
 
 .section-subtitle_theme_dark {
