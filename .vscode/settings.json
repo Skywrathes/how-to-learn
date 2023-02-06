@@ -1,0 +1,10 @@
+{
+    "indentRainbow.colorOnWhiteSpaceOnly": true,
+    "indentRainbow.colors": [
+
+        "rgba(26,88,142,0.3)",
+        "rgba(250,133,234,0.3)",
+        "rgba(118,240,255,0.3)",
+        "rgba(117,255,117,0.3)"
+    ]
+}
