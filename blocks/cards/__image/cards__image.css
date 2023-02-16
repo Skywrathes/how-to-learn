@@ -1,0 +1,12 @@
+.cards__image {
+  overflow: hidden;
+  width: 160px;
+  height: 160px;
+  padding: 60px 40px 43px;
+}
+
+.cards__image img {
+  width: 160px;
+  height: 160px;
+  clip-path: circle(50%);
+}
