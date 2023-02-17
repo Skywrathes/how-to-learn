@@ -1,0 +1,11 @@
+.khan__book-pic {
+  width: 620px;
+  height: 608px;
+  padding-right: 48px;
+  overflow: hidden;
+  }
+
+  .khan__book-pic img {
+    width: 100%;
+    height: auto;
+  }

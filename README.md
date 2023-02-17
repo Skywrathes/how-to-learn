@@ -11,6 +11,6 @@
 - CSS
 
 
-## Authors
+### Authors
 
 - [@Skywrathes](https://github.com/Skywrathes)
