@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
@@ -19,12 +18,12 @@
         <a class="header__link" href="#" target="_blank">Узнать &rarr;</a>
       </p>
       <img class ="header__main-illustrarion" src="./images/header-image.png" alt="Снова двойка">
-      <div class="header__square-pic header__square-pic_rotation">
+      <div class="header__square-pic rotation">
       </div>
     </header>
     <main class="content">
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">
             Главные проблемы в обучении
           </h2>
@@ -47,7 +46,7 @@
               Эти же техники применяются на примере обучения в Практикуме.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="techniques">
         <h2 class="section-title">
@@ -58,64 +57,54 @@
         </p>
         <div class="cards">
           <div class="cards__item">
-            <div class="cards__image">
-              <img src="./images/cards-attention.png" alt="Внимание">
-            </div>
-            <div class="cards__title">
+            <img class="cards__image" src="./images/cards-attention.png" alt="Внимание">
+            <h3 class="cards__title">
               Два вида внимания
-            </div>
-            <div class="cards__description">
+            </h3>
+            <p class="cards__description">
               Глубокие знания возникают, 
               если чередовать сфокусированное и рассеянное мышление.
-            </div>
+            </p>
           </div>
           <div class="cards__item">
-            <div class="cards__image">
-              <img src="./images/cards-recall.png" alt="Вспоминание">
-            </div>
-            <div class="cards__title">
+            <img class="cards__image" src="./images/cards-recall.png" alt="Вспоминание">
+            <h3 class="cards__title">
               Recall
-            </div>
-            <div class="cards__description">
+            </h3>
+            <p class="cards__description">
               Вспоминайте изученное — это позволит 
               соединить разрозненные порции памяти.
-            </div>
+            </p>
           </div>
           <div class="cards__item">
-            <div class="cards__image">
-              <img src="./images/cards-interliving.png" alt="Интерливинг">
-            </div>
-            <div class="cards__title">
+            <img class="cards__image" src="./images/cards-interliving.png" alt="Интерливинг">
+            <h3 class="cards__title">
               Интерливинг
-            </div>
-            <div class="cards__description">
+            </h3>
+            <p class="cards__description">
               Изучайте несколько навыков одновременно, 
               они обогащают друг друга.
-            </div>
+            </p>
           </div>
           <div class="cards__item">
-            <div class="cards__image">
-              <img src="./images/cards-question.png" alt="Вопросики">
-            </div>
-            <div class="cards__title">
+            <img class="cards__image" src="./images/cards-question.png" alt="Вопросики">
+            <h3 class="cards__title">
               Вопросы
-            </div>
-            <div class="cards__description">
+            </h3>
+            <p class="cards__description">
               Слушая преподавателя, придумывайте хороший вопрос, 
               который вас действительно волнует.
-            </div>
+            </p>
           </div>
           <div class="cards__item">
-            <div class="cards__image">
-              <img src="./images/cards-competence.png" alt="Компетентность">
-            </div>
-            <div class="cards__title">
+            <img class="cards__image" src="./images/cards-competence.png" alt="Компетентность">
+            <h3 class="cards__title">
               Иллюзия компетентности
-            </div>
-            <div class="cards__description">
+            </h3>
+            <p class="cards__description">
               Повторите про себя, запишите, расскажите другу: 
               вам только кажется, что вы владеете новой темой.
-            </div>
+            </p>
           </div>
         </div>
       </section>
@@ -128,13 +117,11 @@
         </p>
         <div class="video__iframes">
           <iframe class="video__iframe"
-          width="560" height="315" 
           src="https://www.youtube.com/embed/arj7oStGLkU" 
           title="YouTube video TED1" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
           </iframe>
           <iframe class="video__iframe"
-          width="560" height="315" 
           src="https://www.youtube.com/embed/5MgBikgcWnY" 
           title="YouTube video TED2" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
@@ -142,7 +129,7 @@
         </div>
       </section>
       <section class="oakley">
-        <div class="two-columns oakley__two-columns">
+        <article class="two-columns oakley__two-columns">
           <h2 class="two-columns__brief">
             История Барбары Оакли.
           </h2>
@@ -157,7 +144,7 @@
               гораздо глубже, чем у тех, кому всё ясно с первого взгляда.
             </p>
           </div>
-        </div>
+        </article>
       </section>
       <section class="feynman">
         <h2 class="feynman__title">
@@ -256,9 +243,9 @@
           <p class="khan__author">
             Салман Хан
           </p>
-          <h3 class="khan__title">
+          <h2 class="khan__title">
             Весь мир - школа
-          </h3>
+          </h2>
           <blockquote class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс обучения миллионов 
             студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, 
@@ -272,9 +259,7 @@
             Кинорежиссер, продюсер
           </p>
           <div class="khan__book-container">
-            <div class="khan__book-pic">
-              <img src="./images/khan-book.jpg" alt="Книга">
-            </div>
+            <div class="khan__book-pic" title="Книга Салмана Хана"></div>
             <a class="khan__buy-link" href="#">Купить книгу &rarr;</a>
           </div>
         </div>
@@ -368,7 +353,7 @@
             </p>
           </li>
         </ul>
-        <div class="kaufman__triangle kaufman__triangle_rotation">
+        <div class="kaufman__triangle rotation">
         </div>
       </section>
       <section class="resources">

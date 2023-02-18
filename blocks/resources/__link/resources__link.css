@@ -1,5 +1,6 @@
 .resources__link {
   justify-content: center;
+  transition: opacity 1s ease;
 }
 
 .resources__link:hover {

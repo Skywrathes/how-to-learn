@@ -1,3 +1,7 @@
+.rotation {
+  animation: var(--rotation);
+}
+
 @keyframes rotation {
   0% {
     transform: rotate(0);
